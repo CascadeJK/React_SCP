@@ -22,6 +22,37 @@ p{
   font-size: 1rem;
 }
 
+ul{
+  list-style: none;
+  width:45%;
+  margin-left: 50%;
+}
+
+li{
+  display:inline-block;
+  width:20%;
+}
+
+a{
+color: #ffffff;
+display: block;
+font-size:1.3vw;
+padding:1.3% 2.5%;
+margin-right:2% ;
+text-decoration: none;
+font-size: 1.2rem;
+}
+
+a:hover {
+background-color: #ddd;
+color: black;
+}
+
+a.active {
+background-color: #DC143C;
+color: #ffffff;
+}
+
 .heading{
   margin-top: 3rem;
 }
@@ -75,6 +106,10 @@ footer{
   h3{
       font-size:1.6rem;
   }
+
+  a{
+    font-size: 0.8rem;
+    }
   
   p{
       font-size: 0.8rem;
@@ -101,6 +136,9 @@ footer{
   p{
       font-size: 0.7rem;
   }
+  a{
+    font-size: 0.8rem;
+    }
   
   .logo {
     width: 11vw;
@@ -126,6 +164,10 @@ footer{
   p{
       font-size: 0.8rem;
   }
+
+  a{
+    font-size: 0.9rem;
+    }
   
   .logo {
     width: 14vw;
